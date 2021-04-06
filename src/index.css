@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: 'Karla';
+  src: local('Karla'), url(./font/Karla-Regular.ttf), format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: Karla,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,15 @@
+.sliding {
+    position: relative;
+    height: 7rem;
+    max-width: 100%;
+    overflow: hidden;
+    background: #ffcd1a;
+    display: flex;
+    align-items: center;
+}
+
+.sliding-text {
+    color: white;
+    font-size: 2.3rem;
+    width: 100%;
+}

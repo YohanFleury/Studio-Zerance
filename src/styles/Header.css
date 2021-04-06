@@ -1,0 +1,26 @@
+
+
+.header {
+    padding: 45px 0;
+    width: 90%;
+    margin-left: 70px;
+}
+
+.logo {
+    max-width: 90px;
+    margin-left: 30px;
+    display: flex;
+}
+.pimp-studio {
+    color: black;
+
+}
+.menu-item {
+    display: inline;
+    color: black;
+    margin: 0 28px;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+}

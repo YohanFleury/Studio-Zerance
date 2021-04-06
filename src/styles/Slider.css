@@ -1,0 +1,15 @@
+.postit { 
+    position: relative;
+    background-color: white;
+    color: black;
+    height: 400px;
+    width: 400px;
+    left:50%;
+    margin-bottom: 130px;
+    margin-left: 80px;
+}
+
+.relative {
+    position: relative;
+}
+
