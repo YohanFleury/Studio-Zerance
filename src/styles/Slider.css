@@ -1,5 +1,6 @@
 .postit { 
     position: relative;
+    padding: 2rem;
     background-color: white;
     color: black;
     height: 400px;
@@ -7,9 +8,37 @@
     left:50%;
     margin-bottom: 130px;
     margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .relative {
     position: relative;
+}
+
+.underline {
+    background: url("https://cdn.shopify.com/s/files/1/0072/0561/7711/files/Calque_14.png?8187");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 150%;
+}
+
+.font-t1 {
+    font-size: 1rem;
+}
+
+.font-t2 {
+    font-size: 3rem;
+}
+
+.font-link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-style: italic;
+    color: black;
 }
 

@@ -20,18 +20,14 @@ const Slider = () => {
           />
           <Carousel.Caption>
             <div className="container">
-              <div className="row">
                 <div className="postit">
-                  <div className="col p-4">
-                    <h3>FROM SCRATCH /</h3>
-                    
-                    <h1> Seasonly </h1>
-                    <p> Développement site from scratch et d'un quiz personnalisé avec abonnement.
-                        Développement site from scratch et d'un quiz personnalisé avec abonnement. </p>
-                    <h3> {a}Voir plus{b}</h3>
-                  </div>
-              </div>
-              </div>
+                  <h3 className="font-t1">FROM SCRATCH /</h3>
+                  
+                  <h1 className="font-t2"> seasonly </h1>
+                  <p> Développement site from scratch et d'un quiz personnalisé avec abonnement.
+                      Développement site from scratch et d'un quiz personnalisé avec abonnement. </p>
+                  <h3>  <a href="#" className="font-link text-decoration-none underline">{a}Voir plus{b} </a></h3>
+                </div>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -41,6 +37,18 @@ const Slider = () => {
             src={image2}
             alt="Second slide"
           />
+          <Carousel.Caption>
+            <div className="container">
+                <div className="postit">
+                  <h3 className="font-t1">FROM SCRATCH /</h3>
+                  
+                  <h1 className="font-t2"> seasonly </h1>
+                  <p> Développement site from scratch et d'un quiz personnalisé avec abonnement.
+                      Développement site from scratch et d'un quiz personnalisé avec abonnement. </p>
+                  <h3> <span className="underline"> {a}Voir plus{b} </span></h3>
+                </div>
+            </div>
+          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
    </div>

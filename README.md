@@ -1,8 +1,13 @@
 Installation :
 
-Ceci est une application React, il vous suffit d'installer node sur votre machine pour la lancer.
+Ceci est une application React, il vous suffit d'installer node sur votre machine pour la lancer :
+https://nodejs.org/fr/download/
 
-Vous pouvez donc simplement cloner ce repo, et lancer la commande 'npm start' dans le terminal à la racine du projet.
+Vous pouvez ensuite simplement cloner ce repo :
+$ git clone https://github.com/YohanFleury/Studio-Zerance.git 
+
+et lancer cette commande dans le terminal à la racine du projet :
+$ npm start
 
 
 Technique : 
